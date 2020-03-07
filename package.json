@@ -4,7 +4,7 @@
   "description": "just testing gh-pages",
   "main": "index.js",
   "scripts": {
-    "build": "cp public/index.html build/",
+    "build": "cp public/index.html build/ && cp public/index.css build/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
